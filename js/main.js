@@ -8,16 +8,16 @@ var adjective = prompt('Choose an adjective (beautiful, super, etc.).');
 
 var verbed = prompt('Choose a past tense verb (ran, burped, etc.).');
 
-var story = prompt('Which story would you like? a) Snacking b) Escaping c) Winning Enter the letter below:');
+var story = prompt('Which story would you like?') + var options = ['a) Snacking', 'b) Escaping', 'c) Winning'] + 'Enter the letter below:');
 
-if(story == a) {
+var a = function () {
   document.write('After snacking on' + adjective + 'treats, the' + colour + 'bellied' + creature + verbed + 'for hours.');
 }
 
-if(story == b) {
+var b = function () {
   document.write('Ameilia' + verbed + 'through the' + adjective + colour + 'nebula escaping the space' + creature + '.');
 }
 
-if(story == c) {
+var c = function ()  {
   document.write('Jackson chose his' + adjective + ',' + colour + creature + 'card and' + verbed + 'it to the table knowing he won.');
 }
