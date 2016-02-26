@@ -8,7 +8,7 @@ var adjective = prompt('Choose an adjective (beautiful, super, etc.).');
 
 var verbed = prompt('Choose a past tense verb (ran, burped, etc.).');
 
-var story = prompt('Which story would you like?');
+var story = prompt('Which story would you like? Enter the letter below:');
 
 var a = function () {
   document.write('After snacking on ' + adjective + ' treats, the ' + colour + ' bellied ' + creature + (' ') + verbed + ' for hours.');
