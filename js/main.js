@@ -7,27 +7,29 @@ var a;
 var b;
 var c;
 
-var colour = prompt('Choose a colour (orange, indigo, etc.).');
+alert('Let\'s make a story together!');
 
-var creature = prompt('Choose a creature (dragon, moth, etc.).');
+colour = prompt('A colour.');
 
-var adjective = prompt('Choose an adjective (beautiful, super, etc.).');
+creature = prompt('A creature.');
 
-var verbed = prompt('Choose a past tense verb (ran, burped, etc.).');
+adjective = prompt('An adjective.');
 
-var story = prompt('Which story would you like? Enter the letter below:');
+verbed = prompt('A past tense verb.');
 
-var a = function () {
+story = prompt('Which story would you like? \nEnter the letter below: \na) Snacking \nb) Escaping \nc) Winning');
+
+a = function () {
   document.write('After snacking on ' + adjective + ' treats, the ' + colour + ' bellied ' + creature + (' ') + verbed + ' for hours.');
-}
+};
 
-var b = function () {
+b = function () {
   document.write('Ameilia ' + verbed + ' through the ' + adjective + (' ') + colour + ' nebula escaping the space ' + creature + '.');
-}
+};
 
-var c = function ()  {
+c = function ()  {
   document.write('Jackson chose his ' + adjective + ', ' + colour + (' ') + creature + ' card and ' + verbed + ' it to the table knowing he won.');
-}
+};
 
 if (story == 'a' || story == 'A') {
   a();
