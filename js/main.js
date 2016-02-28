@@ -1,4 +1,11 @@
-alert('Lets make a story together!');
+var colour;
+var creature;
+var adjective;
+var verbed;
+var story;
+var a;
+var b;
+var c;
 
 var colour = prompt('Choose a colour (orange, indigo, etc.).');
 
